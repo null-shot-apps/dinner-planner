@@ -131,7 +131,7 @@ export default function DinnerPlanner() {
                   onClick={() => handleVote(option.id)}
                   className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors font-medium"
                 >
-                  Vote
+                  👍 Vote
                 </button>
               </div>
             ))}
@@ -167,4 +167,5 @@ export default function DinnerPlanner() {
     </div>
   );
 }
+
 
