@@ -74,7 +74,7 @@ export default function DinnerPlanner() {
                 value={guestCount}
                 onChange={(e) => setGuestCount(e.target.value)}
                 placeholder="e.g., 8"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent text-black"
               />
             </div>
             <div>
@@ -86,7 +86,7 @@ export default function DinnerPlanner() {
                 value={budget}
                 onChange={(e) => setBudget(e.target.value)}
                 placeholder="e.g., $200"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent text-black"
               />
             </div>
           </div>
@@ -167,5 +167,7 @@ export default function DinnerPlanner() {
     </div>
   );
 }
+
+
 
 
